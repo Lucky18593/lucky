@@ -1,0 +1,58 @@
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo add-apt-repository -y ppa:webupd8team/java
+    4  sudo apt update
+    5  sudo apt install -y oracle-java8-installer
+    6  java -version
+    7  sudo nano /etc/profile
+    8  source /etc/profile
+    9  sudo nano /etc/sysctl.conf
+   10  sudo reboot
+   11  sudo addgroup hadoopgroup
+   12  sudo adduser -ingroup hadoopgroup hadoopuser
+   13  sudo apt install ssh
+   14  sudo systemctl enable ssh
+   15  sudo systemctl start ssh
+   16  su - hadoopuser
+   17  sudo nano core-site.xml
+   18  sudo nano hdfs-site.xml
+   19  sudo nano core-site.xml
+   20  sudo nano hdfs-site.xml
+   21  sudo nano mapred-site.xml.template
+   22  sudo nano yarn-site.xml
+   23  su hadoopuser
+   24  cd
+   25  sudo nano /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+   26  su hadoopuser
+   27  cd
+   28  wget http://apache.claz.org/hadoop/common/hadoop-2.8.4/hadoop-2.8.4.tar.gz
+   29  sudo tar xzf hadoop-2.8.4.tar.gz
+   30  sudo mv hadoop-2.8.4 /usr/local
+   31  sudo ln -sf /usr/local/hadoop-2.8.4/ /usr/local/hadoop
+   32  sudo chown -R hadoopuser:hadoopgroup /usr/local/hadoop-2.8.4/
+   33  su hadoopuser
+   34  sudo nano hw2.scala
+   35  sudo scala hw2.scala
+   36  sudo nano hw2.scala
+   37  sudo scala hw2.scala
+   38  sudo nano hw2.scala
+   39  sudo scala hw2.scala
+   40  sudo nano hw2.scala
+   41  sudo scala hw2.scala
+   42  sudo nano hw2.scala
+   43  sudo scala hw2.scala
+   44  su hadoopuser
+   45  wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+   46  bash Anaconda3-5.2.0-Linux-x86_64.sh
+   47  cd
+   48  source .bashrc
+   49  jupyter notebook
+   50  su hadoopuser
+   51  sudo scala
+   52  sudo nano hw2.scala
+   53  sudo nano hw6.scala
+   54  sudo scala hw6.scala
+   55  sudo nano hw6.scala
+   56  sudo scala hw6.scala
+   57  cd
+   58  history >maincommands.txt
