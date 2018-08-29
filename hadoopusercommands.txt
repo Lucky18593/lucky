@@ -1,0 +1,70 @@
+    1  cd
+    2  hdf namenode -format
+    3  hadoop hdf namenode -format
+    4  hadoopusr namenode -format
+    5  hadoop namenode -format
+    6  start-dfs.sh
+    7  start-yarn.sh
+    8  jps
+    9  start-dfs.sh
+   10  hadoop namenode -format
+   11  start-dfs.sh
+   12  start-yarn.sh
+   13  jps
+   14  Hadoop namenode -format
+   15  hadoop namenode -format
+   16  start-dfs.sh
+   17  start-yarn.sh
+   18  jps
+   19  hadoop namenode -format
+   20  jps
+   21  su mr3
+   22  su mr3
+   23  cd
+   24  nano ~/.bashrc
+   25  source ~/.bashrc
+   26  su mr3
+   27  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   28  chmod 600 ~/.ssh/authorized_keys
+   29  ssh localhost
+   30  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   31  jps
+   32  start-yarn.sh
+   33  jps
+   34  cd MapReduceTutorial/
+   35  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   36  Main-Class: SalesCountry.SalesCountryDriver
+   37  ls
+   38  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   39  hadoop fs -mkdir /inputMapReduce
+   40  hadoop fs -cat /mapreduce_output_sales/part-00000
+   41  hadoop fs-cat /mapreduce_output_sales/part-00000
+   42  hadoop fs -cat/mapreduce_output_sales/part-00000
+   43  hadoop fs-cat/mapreduce_output_sales/part-00000
+   44  hadoop fs - cat /mapreduce_output_sales/part-00000
+   45  hadoop fs - cat/mapreduce_output_sales/part-00000
+   46  ls
+   47  cd
+   48  $HADOOP_HOME/bin/hdfs dfs -cat /mapreduce_output_sales/part-00000
+   49  hdfs dfs -cat /mapreduce_output_sales/part-00000
+   50  hadoop dfs -cat /mapreduce_output_sales/part-00000
+   51  hadoop fs -cat /mapreduce_output_sales/part-00000
+   52  cd
+   53  jps
+   54  start-dfs.sh
+   55  start-yarn.sh
+   56  jps
+   57  hive
+   58  jps
+   59  hive
+   60  cd
+   61  hive
+   62  jps
+   63  hive
+   64  nano input3.txt
+   65  hdfs dfs -put input3.txt /
+   66  hadoop fs -put input3.txt /
+   67  hadoop fs -cat input3.txt
+   68  hdfs dfs -cat /input3.txt
+   69  hive
+   70  history > hadoopusercommands.txt
